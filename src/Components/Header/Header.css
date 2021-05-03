@@ -1,0 +1,44 @@
+.header-nav{
+    background-color: #182C61;
+    padding: 5px 50px;
+}
+.header-nav span{
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 10px;
+}
+.user{
+    color: white;
+    background: #142452;
+    border: 1px solid rgba(211, 211, 211, 0.267);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-right: 40px;
+    margin: 10px;
+}
+.header-nav .navbar-dark .navbar-brand .navbar-nav{
+    color: #fff;
+    font-size: 22px;
+}
+.header-nav  a{
+    color:rgb(204, 204, 204);
+    font-size: 18px;
+}
+.header-nav a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .header-nav .navbar-dark .navbar-brand .navbar-nav{
+        margin: 0px 45px;
+        font-size: 22px;
+    }
+    .header-nav{
+        padding: 15px;
+    }
+  
+ }

@@ -1,0 +1,15 @@
+.card{
+text-align: center;
+margin: 20px;
+}
+.card-body{
+    width: 280px;
+    border: 1px solid #142452;
+    padding: 10px; 
+}
+.card img{
+    width: 100%;
+    min-height: 240px;
+    
+}
+

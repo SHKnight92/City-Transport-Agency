@@ -1,0 +1,25 @@
+.home{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px;
+    margin: 0 auto;
+    background: lightblue url(../assets/images/bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.card-body{
+    border: none;
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) { 
+    .home{
+        display: block;
+        padding: 40px 0px;
+    }
+    .card-body{
+        margin: 10px;
+        width: 390px;
+        border: none;
+    }
+}

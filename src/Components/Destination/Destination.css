@@ -1,0 +1,64 @@
+.destination{
+    display: flex;
+    width: 1200px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+.search{
+    width: 25%;
+    margin-left: 15px;
+}
+.submit{
+   background: rgb(74, 54, 255);
+   color:white;
+}
+.search input{
+    padding: 8px 15px;
+    width: 90%;
+    border: 1px solid lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.map-container, .search{
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.774);
+    margin: 15px auto;
+    border-radius: 5px;
+}
+.map{
+        position: relative;
+        text-align: right;
+        height: 400px;
+        width: 850px;
+}
+.map-frame{
+        overflow: hidden;
+        background: none!important;
+        height: 400px;
+        width: 850px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .destination{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .search, .map-container{
+        width: 90%;
+        padding: 15px;
+        border: 1px solid lightgray;
+        margin: 15px auto;
+    }
+    .map, .map-frame{
+        height: 100%;
+        width: 100%;
+}
+    
+ }
